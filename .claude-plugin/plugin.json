@@ -1,0 +1,16 @@
+{
+  "name": "granola-meetings",
+  "version": "0.1.0",
+  "description": "Access and review meeting notes from Granola. Integrates with task-management to extract action items.",
+  "author": {
+    "name": "Mike Mitchell"
+  },
+  "keywords": [
+    "meetings",
+    "granola",
+    "tasks",
+    "action-items",
+    "notes"
+  ],
+  "license": "MIT"
+}
