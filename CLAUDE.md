@@ -22,6 +22,17 @@ granola-meetings/
 └── CLAUDE.md
 ```
 
+## Distribution
+
+- **GitHub:** [trigrman/granola-meetings](https://github.com/trigrman/granola-meetings)
+- **Marketplace:** [trigrman/claude-plugins](https://github.com/trigrman/claude-plugins)
+
+**Install:**
+```bash
+/plugin marketplace add trigrman/claude-plugins
+/plugin install granola-meetings@trigrman
+```
+
 ## Local Development
 
 Test the plugin locally:
@@ -34,6 +45,8 @@ Commands will be available as:
 - `/granola-meetings:meetings-get`
 - `/granola-meetings:meetings-review`
 - `/granola-meetings:meetings-ask`
+
+After making changes, commit and push to GitHub. Users with the plugin installed can update via `/plugin update granola-meetings@trigrman`.
 
 ## Dependencies
 
