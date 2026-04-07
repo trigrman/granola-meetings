@@ -1,5 +1,9 @@
 # Granola Meetings Plugin
 
+> **DEPRECATED** - This plugin is no longer maintained. Granola now provides an official MCP server (`https://mcp.granola.ai/mcp`) that supersedes this approach. Add it to your project's `.mcp.json` instead.
+>
+> This plugin was built to read Granola's local cache file directly, which Granola changed from `cache-v3.json` to `cache-v4.json` (with a different format). The official MCP server is the supported path going forward.
+
 ## Overview
 
 Claude Code plugin for accessing and reviewing meeting notes from Granola. Integrates with the task-management plugin to extract action items and create tasks.
